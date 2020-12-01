@@ -5,6 +5,7 @@ title: Lin-Zhuo Chen's homepage
 # **About Me**
 My name is Lin-Zhuo Chen. I am a graduate student at College of Computer Science, Nankai University. I will join  [ByteDance](https://bytedance.com/) worked as an algorithm engineer .
 My research interests are Computer Vision and Recommend System. My [CV](https://linzhuo.xyz/file/main.pdf) is avaliable .
+You can read my blog [here](https://linzhuo.xyz/tags/). 
 
 # **Contact**
 
