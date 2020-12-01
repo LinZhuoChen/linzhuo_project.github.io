@@ -49,9 +49,6 @@ The structure of S-Conv and SGNet are shown as bellow:
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422165851298.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpanVlemh1ODEyOA==,size_16,color_FFFFFF,t_70)
 
 <center>SGNet的结构</center>
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422172331401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpanVlemh1ODEyOA==,size_16,color_FFFFFF,t_70)
-
-<center>在NYUD数据集分割结果的展示</center>
 ## 3. [LSANet: Feature Learning on Point Sets by Local Spatial Aware Layer](https://github.com/LinZhuoChen/LSANet)
 
 We propose a new network layer, named **Local Spatial Aware** (LSA) Layer, to model geometric structure in local region accurately and robustly. Each feature extracting operation in LSA layer is related to **Spatial Distribution Weights** (SDWs), which are learned based on the spatial distribution in local region, to establish a strong link with inherent geometric shape. The experiments show that our LSA-based network, named **LSANet**, can achieve on par or better performance than the state-of-the-art methods when evaluating on the challenging benchmark datasets. The network architecture of LSANet and LSA module are shown below.
@@ -67,10 +64,7 @@ We propose a new network layer, named **Local Spatial Aware** (LSA) Layer, to mo
 
 
 
-The visualization of SDWs are shown below:
-![LSANet3](/images/kernel_attention_vis_ps.png)
-
-# **Publication**
+**Publication**
 
 Interactive Image Segmentation with First Click Attention, Zheng Lin, Zhao Zhang, **Lin-Zhuo Chen**, Ming-Ming Cheng, Shao-Ping Lu, **IEEE CVPR**, 2020
 
