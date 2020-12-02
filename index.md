@@ -25,7 +25,7 @@ College of Computer Science, NanKai University, TianJin, Sept. 2018 - Jul. 2021(
 
 # **Project**
 
-### 1. [室内飞行机器人的定位，控制及路径规划](https://linzhuo.xyz/posts/project/quadrotor)
+### 1. [室内飞行机器人的定位，控制及路径规划](https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/)
 
 本项目完成了对四轴飞行器的室内定位，控制以及路径规划等任务。其项目框图如下：
 
