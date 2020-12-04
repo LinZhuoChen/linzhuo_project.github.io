@@ -2,6 +2,8 @@ title: Lin-Zhuo Chen # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   NKU计算机18级在读<br/>
   计算机视觉/推荐系统<br/>
+  喜欢巨人 我们就是朋友😄<br/>
+  欢迎与我进行交流<br/>
   <a href="mailto:linzhuochen@foxmail.com">
     <i class="fas fa-envelope"></i>
   </a>
@@ -11,15 +13,12 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://www.zhihu.com/people/you62580/activities">
     <i class="fab fa-zhihu"></i>
   </a>
-  <iframe
-    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
-    width=100%
-    height=52
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-  ></iframe>
+  <a href="https://www.linkedin.com/in/lin-zhuo-chen-2a2876176/">
+  <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://space.bilibili.com/22241241">
+  <i class="fas fa-tv"></i>
+  </a>  
 url: https://linzhuo.xyz # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -85,7 +84,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-family: PingFang SC, Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
+                  font-family: PingFang SC, PingFang SC, PingFang SC, PingFang SC, PingFang SC, PingFang SC;
                 }
               </style>
             - | # 网页标题使用加粗字号
