@@ -4,7 +4,7 @@ title: Lin-Zhuo Chen's homepage
 ---
 <style>
 
-body {
+body { 
 }
 
 
@@ -20,7 +20,7 @@ a:focus {
 }
 
 .gray-container {
-    background-color: #eee;
+    background-color: #eee;  
 }
 
 #about {
