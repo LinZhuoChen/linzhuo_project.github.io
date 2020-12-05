@@ -4,24 +4,30 @@ title: Lin-Zhuo Chen's homepage
 ---
 # **关于我**
 
-我是陈林卓，目前南开大学计算机学院硕士在读，我将作为算法工程师加入[字节跳动](https://bytedance.com/) 。
+Hi~ 😄我是陈林卓，目前南开大学计算机学院硕士在读，我将作为算法工程师加入[字节跳动](https://bytedance.com/) 。
 
-我的研究兴趣包括计算机视觉和推荐系统，可以在这查看我的[简历](https://linzhuo.xyz/file/main.pdf) 。你可以在这查看我的[博客](https://linzhuo.xyz/tags/)。
+我的研究兴趣包括计算机视觉<i class="fas fa-eye"></i> 和推荐系统<i class="fas fa-brain"></i>，可以在这查看我的[简历](https://linzhuo.xyz/file/main.pdf)。你可以在这查看我的[博客](https://linzhuo.xyz/tags/)<i class="fas fa-book"></i> 。
 
 # **About Me**
 My name is Lin-Zhuo Chen. I am a graduate student at College of Computer Science, Nankai University. I will join  [ByteDance](https://bytedance.com/) worked as an algorithm engineer .
-My research interests are Computer Vision and Recommend System. My [CV](https://linzhuo.xyz/file/main.pdf) is avaliable .
-You can read my blog [here](https://linzhuo.xyz/tags/). 
+
+My research interests are Computer Vision <i class="fas fa-eye"></i> and Recommend System<i class="fas fa-brain"></i>. My [CV](https://linzhuo.xyz/file/main.pdf) is avaliable .
+You can read my [blog](https://linzhuo.xyz/tags/)<i class="fas fa-book"></i> . 
 
 # **Contact**
 
-Feel free to contact me by [email](linzhuochen@foxmail.com) or [zhihu](https://www.zhihu.com/people/you62580/).
+- <i class="fas fa-home"></i> : **<font color="#FF0000 ">lin</font><font color="#008000">zhuo</font>.<font color="#0000FF">xyz</font>**
+- <i class="fas fa-envelope"></i> : **<font color="#4590a3">lin</font><font color="#008000">zhuo</font><font color="#0000FF">chen</font>@<font color="#FF0000 ">foxmail</font>.com**
+- <i class="fab fa-zhihu"></i>  : **[<font color="#4590a3">you</font><font color="#008000">62580</font> ](https://www.zhihu.com/people/you62580)**
+- <i class="fab fa-github"></i> : **[<font color="#4590a3">Lin</font><font color="#008000">Zhuo</font><font color="#0000FF">Chen</font>](https://github.com/LinZhuoChen)**
+
+Feel free to contact with me.
 
 # **Education**
 
-School of Electronic Engineering, XiDian University, Xi'an, Sept. 2014 - Jul. 2018 
+**西安电子科技大学         电子工程学院** Sept. 2014 - Jul. 2018 
 
-College of Computer Science, NanKai University, TianJin, Sept. 2018 - Jul. 2021(expected) 
+**南开大学         计算机学院** Sept. 2018 - Jul. 2021(expected) 
 
 # **Project**
 
