@@ -214,11 +214,3 @@ Feel free to contact with me.
         </div>
     </div>
 </head>
-
-# **Skill**
-
-TBD
-
-# **Leadership**
-
-TBD
