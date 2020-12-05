@@ -192,7 +192,7 @@ Feel free to contact with me.
                 <br>
                 <strong>IEEE CVPR, 2020</strong>
                 <br>
-                [<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Interactive_Image_Segmentation_With_First_Click_Attention_CVPR_2020_paper.pdf" target="_blank">Paper</a>][<a href="https://www.lin-zheng.com/fclick/" target="_blank">Project</a>] [<a href="https://github.com/frazerlin/fcanet" target="_blank">Code</a>]  
+                [<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Interactive_Image_Segmentation_With_First_Click_Attention_CVPR_2020_paper.pdf" target="_blank">Paper</a>][<a href="https://www.lin-zheng.com/fclick/" target="_blank">Project</a>] [<a href="https://github.com/frazerlin/fcanet" target="_blank">Code</a>]   
                 <br>
             </div>
         </div>
