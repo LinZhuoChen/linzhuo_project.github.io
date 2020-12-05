@@ -153,7 +153,7 @@ Feel free to contact with me.
     <div id="publication">
         <div class="row work-block">
             <div class="project col-xs-3">
-                <img class="work-img" src="./images/project1.gif">
+                <img class="work-img" src="./images/system.png">
                 <!-- <img class="work-img" src="/images/system.png"> -->
             </div>
             Jin-Yao Zhu, Lin-Zhuo Chen 
