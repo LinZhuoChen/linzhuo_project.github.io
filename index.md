@@ -140,7 +140,7 @@ My research interests are [Computer Vision](https://en.wikipedia.org/wiki/Comput
 - <i class="fab fa-zhihu"></i>  : **[<font color="#4590a3">you</font><font color="#008000">62580</font> ](https://www.zhihu.com/people/you62580)**
 - <i class="fab fa-github"></i> : **[<font color="#4590a3">Lin</font><font color="#008000">Zhuo</font><font color="#0000FF">Chen</font>](https://github.com/LinZhuoChen)**
 
-Feel free to contact with me.
+Feel free to contact me.
 
 # **Education**
 
