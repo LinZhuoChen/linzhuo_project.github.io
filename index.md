@@ -148,6 +148,10 @@ Feel free to contact me.
 
 **南开大学         计算机学院** Sept. 2018 - Jul. 2021(expected) 
 
+# **主页动态**
+* 2020-12-09: 更新博文：[policy gradient](https://linzhuo.xyz/_posts/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/2020-12-04-policy_gradient/)。
+* 2020-12-05: 主页重构，修改了project页面，修改背景，留言和打赏页。
+
 # **Project**
 <head>
     <div id="publication">

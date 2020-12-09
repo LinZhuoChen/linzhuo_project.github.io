@@ -26,6 +26,7 @@ P(s_3|s_2, a_2)...\\
 $$
 
 上述式子中，环境决定$P(s_{t+1}|s_t, a_t)$，agent 决定 $P_{\theta}(a_t|s_t)$, $\theta$ 为agent policy 网络的参数，是policy gradient 需要优化的参数。
+
 policy gradient 算法最大化的目标为：所有可能产生的路径，奖励的总期望$R_{\theta}$：
 
 $$
@@ -64,13 +65,14 @@ $$
 公式4中的$R(\tau)$可能一直为正数，可能会影响优化效率。因此我们将公式4进行一些修改：
 
 $$
-\nabla R_{\theta} = \frac{1}{N} \sum_{i=1}^{N} (\sum_{t=1}^{T} R(\tau)-b) \nabla log P_{\theta}(a_t^n | s_t^n) \tag{5}
+\nabla R_{\theta} = \frac{1}{N} \sum_{i=1}^{N} (\sum_{t=1}^{T} R(\tau^n)-b) \nabla log P_{\theta}(a_t^n | s_t^n) \tag{5}
 $$
 
 其中$b \approx E[R(\tau)]$。保证了$R(\tau)-b$的正负区间的平衡性。同时也可以对
 reward进行归一化操作，具体细节可以参考下方代码实现。
 
-公式5中，$R(\tau^n) = \sum_{t'=t}^{T_n} r_{t'}^{n}$，将长期收益与短期收益的权重视为一致。我们将公式五修改如下，其中$\lambda \in [0,1]$:
+公式5中，$R(\tau^n) = \sum_{t'=t}^{T_n} r_{t'}^{n}$，将长期收益与短期收益的权重视为一致。我们想让收益随着时间递减，因此，
+我们将公式5修改如下，其中$\lambda \in [0,1]$:
 
 $$
 \nabla R_{\theta} = \frac{1}{N} \sum_{i=1}^{N} \sum_{t=1}^{T} (\sum_{t'=t}^{T_n} \lambda^{t'-t} r_{t'}^{n}-b) \nabla log P_{\theta}(a_t^n | s_t^n) \tag{6}
@@ -94,7 +96,7 @@ import numpy as np
 import gym
 ```
 我们的实验基于'CartPole-v1'环境。我们首先实现一个agent，其policy网络由几层FC层组成，输出只有两个action (倒立摆向左或者向右)。
-主要实现的功能有更新和动作选择:
+主要实现的功能有policy net 更新和动作选择:
 ```python
 class FCN(nn.Module):
     ''' 全连接网络'''
@@ -212,3 +214,4 @@ env.close() # 关闭环境
 * [Intro to Reinforcement Learning (强化学习纲要）](https://github.com/zhoubolei/introRL)
 * [神经网络与深度学习](https://nndl.github.io/)
 * [百面深度学习](https://book.douban.com/subject/35043939/)
+* [李宏毅深度强化学习笔记(LeeDeepRL-Notes)](https://datawhalechina.github.io/leedeeprl-notes/#/chapter4/chapter4)
