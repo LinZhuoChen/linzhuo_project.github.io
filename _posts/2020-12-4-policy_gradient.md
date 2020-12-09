@@ -25,7 +25,7 @@ P(s_3|s_2, a_2)...\\
 = p(s_1) \prod \limits_{t=1}^TP_{\theta}(a_t|s_t)P(s_{t+1}|s_t, a_t) \tag{2}
 $$
 
-上述式子中，环境决定$P(s_{t+1}|s_t, a_t)$，agent 决定 $P_{\theta}(a_t|s_t)$, $\theta$ 为agent policy 网络的参数，是policy gradient 需要优化的参数。
+上述式子中，环境决定$P(s_{t+1}\|s_t, a_t)$，agent 决定 $P_{\theta}(a_t\|s_t)$, $\theta$ 为agent policy 网络的参数，是policy gradient 需要优化的参数。
 
 policy gradient 算法最大化的目标为：所有可能产生的路径，奖励的总期望$R_{\theta}$：
 
