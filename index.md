@@ -218,7 +218,7 @@ Feel free to contact me.
         </div>
         <div class="row work-block">
             <div class="project col-xs-3">
-                <img class="work-img" src="./images/fangdaqi.jpg">
+                <img class="work-img" src="./images/hardware2.jpg">
                 <!-- <img class="work-img" src="/images/fangdaqi.jpg"> -->
             </div>
             杨猛，陈林卓，曾羡霖 
