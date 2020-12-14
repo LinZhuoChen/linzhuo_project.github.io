@@ -157,19 +157,6 @@ Feel free to contact me.
     <div id="publication">
         <div class="row work-block">
             <div class="project col-xs-3">
-                <img class="work-img" src="./images/system.png">
-                <!-- <img class="work-img" src="/images/system.png"> -->
-            </div>
-            Jin-Yao Zhu, Lin-Zhuo Chen 
-            <div class="col-xs-8">
-                <strong>基于室内定位系统的四轴飞行器表演</strong>
-                <br>
-                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>] 
-                <br>
-            </div>
-        </div>
-        <div class="row work-block">
-            <div class="project col-xs-3">
                 <img class="work-img" src="./images/s_conv1.png">
                 <!-- <img class="work-img" src="/images/s_conv2.png"> -->
             </div>
@@ -213,6 +200,32 @@ Feel free to contact me.
                 <strong>preprint</strong>
                 <br>
                 [<a href="https://arxiv.org/pdf/1905.05442.pdf" target="_blank">Paper</a>] [<a href="https://github.com/LinZhuoChen/LSANet" target="_blank">Code</a>] 
+                <br>
+            </div>
+        </div>
+        <div class="row work-block">
+            <div class="project col-xs-3">
+                <img class="work-img" src="./images/system.png">
+                <!-- <img class="work-img" src="/images/system.png"> -->
+            </div>
+            Jin-Yao Zhu, Lin-Zhuo Chen 
+            <div class="col-xs-8">
+                <strong>基于室内定位系统的四轴飞行器表演</strong>
+                <br>
+                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>] 
+                <br>
+            </div>
+        </div>
+        <div class="row work-block">
+            <div class="project col-xs-3">
+                <img class="work-img" src="./images/fangdaqi.jpg">
+                <!-- <img class="work-img" src="/images/fangdaqi.jpg"> -->
+            </div>
+            杨猛，陈林卓，曾羡霖 
+            <div class="col-xs-8">
+                <strong>自动增益控制宽带放大器</strong>
+                <br>
+                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>] 
                 <br>
             </div>
         </div>
