@@ -1,5 +1,5 @@
 ---
-title: Python的30个技巧
+title: Python的tips（持续更新）
 categories: python
 tags:
 - 编程相关
@@ -363,4 +363,96 @@ Out[2]: 12
 
 这个在python shell中同样成立。同时我们也可以指定`out[n]`得到指定表达式的结果。
 
-# 22. 
+# 22. 快速搭建一个网络服务器
+你可以快速启动一个网络服务器，分享当前工作目录下的文件：
+```bash
+python3 -m http.server
+```
+
+# 23 条件三元运算符
+这里有另一种方法使得你的代码简介易读
+
+```python
+[on_true] if [expression] else [on_false]
+```
+举个例子：
+```python
+x = "Success!" if (y == 2) else "failed"
+```
+
+# 24 计算list元素的频率
+你可以使用`collections` 库里的`Counter` 来返回一个字典，包含每个唯一的元素出现的
+频次：
+```python
+from collections import Counter
+
+mylist = [1, 1, 2, 3, 4, 5, 5, 5, 6, 6]
+c = Counter(mylist)
+print(c)
+# Counter({1: 2, 2: 1, 3: 1, 4: 1, 5: 3, 6: 2})
+
+# And it works on strings too:
+print(Counter("aaaaabbbbbccccc"))
+# Counter({'a': 5, 'b': 5, 'c': 5})
+```
+
+# 25 使用@property装饰器
+我们可以使用@property装饰器，来限制类中元素值
+```python
+class Student(object):
+    @property
+    def birth(self):
+        return self._birth
+
+    @birth.setter
+    def birth(self, value):
+        if value >= 100:
+          print ("error")
+          self._birth = None
+        else:
+          self._birth = value
+
+    @property
+    def age(self):
+        return 2014 - self._birth
+
+```
+
+上面的`birth`是可读写属性，而`age`就是一个只读属性，`age`可以根据`birth`和当前时间计算出来。
+
+# 26 使用namedtuple
+`namedtuple` 创造了一个类，并预先定义了元素，格式如下:
+```python
+collections.namedtuple(typename, field_names, verbose=False, rename=False) 
+```
+示例：
+```python
+from collections import namedtuple
+
+# 两种方法来给 namedtuple 定义方法名
+User = namedtuple('User', ['name', 'age', 'id'])
+user = User('tester', '22', '464643123')
+
+print(user)
+# User(name='tester', age='22', id='464643123')
+
+class SparseFeat(namedtuple('SparseFeat',
+                            ['name', 'vocabulary_size', 'embedding_dim', 'use_hash', 'dtype', 'embedding_name',
+                             'group_name'])):
+    __slots__ = ()
+
+    def __new__(cls, name, vocabulary_size, embedding_dim=4, use_hash=False, dtype="int32", embedding_name=None,
+                group_name=DEFAULT_GROUP_NAME):
+        if embedding_name is None:
+            embedding_name = name
+        if embedding_dim == "auto":
+            embedding_dim = 6 * int(pow(vocabulary_size, 0.25))
+        if use_hash:
+            print(
+                "Notice! Feature Hashing on the fly currently is not supported in torch version,you can use tensorflow version!")
+        return super(SparseFeat, cls).__new__(cls, name, vocabulary_size, embedding_dim, use_hash, dtype,
+                                              embedding_name, group_name)
+
+    def __hash__(self):
+        return self.name.__hash__()
+```
