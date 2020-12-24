@@ -149,6 +149,7 @@ Feel free to contact me.
 **南开大学         计算机学院** Sept. 2018 - Jul. 2021(expected) 
 
 # **主页动态**
+* 2020-12-20: One paper is accepted in IEEE TIP 2021.
 * 2020-12-09: 更新博文：[policy gradient](https://linzhuo.xyz/_posts/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/2020-12-04-policy_gradient/)。
 * 2020-12-05: 主页重构，修改了project页面，修改背景，留言和打赏页。
 
@@ -165,7 +166,7 @@ Feel free to contact me.
                 <br>
                 <strong>Spatial Information Guided Convolution for Real-Time RGBD Semantic Segmentation</strong>
                 <br>
-                <strong>IEEE TIP Under review (major revision)</strong>
+                <strong> IEEE TIP, 2021. (SCI-1, CCF-A)</strong>
                 <br>
                 [<a href="https://arxiv.org/abs/2004.04534" target="_blank">Paper</a>] [<a href="https://linzhuo.xyz" target="_blank">Code</a>] 
                 <br>
