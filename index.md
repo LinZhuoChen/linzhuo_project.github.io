@@ -120,20 +120,20 @@ a:focus {
 
 </style>
 <!-- <div style="float:left;border:solid 1px 000;margin:2px;"><img src="./images/linzhuo.jpg"  width="250" height="240" ></div> -->
-# **关于我**
+<!-- # **About Me**
 Hi~ 😄我是陈林卓，目前南开大学计算机学院硕士在读，导师为[程明明](https://mmcheng.net/cmm/)教授。
 
 我的研究兴趣包括[计算机视觉](https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/2803351?fr=aladdin) <i class="fas fa-eye"></i>  和[推荐系统](https://baike.baidu.com/item/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/10267357?fr=aladdin) <i class="fas fa-brain"></i> ，可以查看我的[简历](https://linzhuo.xyz/file/main.pdf)和[博客](https://linzhuo.xyz/tags/) <i class="fas fa-book"></i> 。
 
-欢迎给我[留言](https://linzhuo.xyz/comments/) <i class="far fa-comments"></i>  和 [打赏 ](https://linzhuo.xyz/merger/) <i class="far fa-grimace"></i> 。
+欢迎给我[留言](https://linzhuo.xyz/comments/) <i class="far fa-comments"></i>  和 [打赏 ](https://linzhuo.xyz/merger/) <i class="far fa-grimace"></i> 。 -->
 
-<!-- # **About Me**
-My name is Lin-Zhuo Chen. I am a graduate student at College of Computer Science, Nankai University. I will join  [ByteDance](https://bytedance.com/) worked as an algorithm engineer .
+## **About Me**
+My name is Lin-Zhuo Chen. I am a graduate student at College of Computer Science, Nankai University.
 
-My research interests are [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision) <i class="fas fa-eye"></i>  and [Recommender System](https://en.wikipedia.org/wiki/Recommender_system) <i class="fas fa-brain"></i> . My [CV](https://linzhuo.xyz/file/main.pdf) and  [Blog ](https://linzhuo.xyz/tags/)<i class="fas fa-book"></i>  are avaliable . -->
+My research interests are [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision) <i class="fas fa-eye"></i>  and [Recommender System](https://en.wikipedia.org/wiki/Recommender_system) <i class="fas fa-brain"></i> . My [CV](https://linzhuo.xyz/file/main.pdf) and  [Blog ](https://linzhuo.xyz/tags/)<i class="fas fa-book"></i>  are avaliable .
 
 
-# **Contact**
+## **Contact**
 
 - <i class="fas fa-home"></i> : **<font color="#4590a3 ">lin</font><font color="#008000">zhuo</font>.<font color="#0000FF">xyz</font>**
 - <i class="fas fa-envelope"></i> : **<font color="#4590a3">lin</font><font color="#008000">zhuo</font><font color="#0000FF">chen</font>@<font color="#FF0000 ">foxmail</font>.com**
@@ -142,18 +142,18 @@ My research interests are [Computer Vision](https://en.wikipedia.org/wiki/Comput
 
 Feel free to contact me.
 
-# **Education**
+## **Education**
 
-**西安电子科技大学         电子工程学院** Sept. 2014 - Jul. 2018 
+**Xidian University** Sept. 2014 - Jul. 2018 
 
-**南开大学         计算机学院** Sept. 2018 - Jul. 2021(expected) 
+**Nankai University** Sept. 2018 - Jul. 2021(expected) 
 
-# **主页动态**
+<!-- # **Update**
 * 2020-12-20: One paper on spatial information guided convolution for RGBD semantic segmentation is accpeted by IEEE TIP.
 * 2020-12-09: 更新博文：[policy gradient](https://linzhuo.xyz/_posts/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/2020-12-04-policy_gradient/)。
-* 2020-12-05: 主页重构，修改了project页面，修改背景，留言和打赏页。
+* 2020-12-05: 主页重构，修改了project页面，修改背景，留言和打赏页。 -->
 
-# **Project**
+## **Project**
 <head>
     <div id="publication">
         <div class="row work-block">
@@ -168,7 +168,7 @@ Feel free to contact me.
                 <br>
                 <strong> IEEE TIP, 2021. (SCI-1, CCF-A)</strong>
                 <br>
-                [<a href="https://arxiv.org/abs/2004.04534" target="_blank">Paper</a>] [<a href="https://linzhuo.xyz" target="_blank">Code</a>] 
+                [<a href="https://arxiv.org/abs/2004.04534" target="_blank">Paper</a>] [<a href="https://github.com/LinZhuoChen/SGNet" target="_blank">Code</a>][<a href="https://linzhuo.xyz/sgnet" target="_blank">Project</a>] 
                 <br>
             </div>
         </div>

@@ -416,9 +416,17 @@ class Student(object):
     def age(self):
         return 2014 - self._birth
 
+xiaoming = Student()
+## That is ok
+xiaoming.birth = 90 
+## Error
+# xiaoming.birth = 190
+## 由于property装饰，不需要加()
+print(xiaoming.age)
 ```
 
 上面的`birth`是可读写属性，而`age`就是一个只读属性，`age`可以根据`birth`和当前时间计算出来。
+上述代码实现了：1）使用`@birth.setter`装饰器和`@property`来限制birth的值。2）使用`@property`来限制对age的写功能。
 
 # 26 使用namedtuple
 `namedtuple` 创造了一个类，并预先定义了元素，格式如下:
@@ -455,4 +463,17 @@ class SparseFeat(namedtuple('SparseFeat',
 
     def __hash__(self):
         return self.name.__hash__()
+```
+# 27. 串联比较运算符
+我们可以在python中串联比较运算符，使得整个程序简洁易懂：
+```python
+x = 10
+# Instead of:
+if x > 5 and x < 15:
+  print("Yes")
+# yes
+
+if 5 < x < 15:
+ print("Yes")
+# Yes
 ```

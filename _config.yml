@@ -2,7 +2,6 @@ title: 主页 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   NKU计算机18级在读<br/>
   计算机视觉/推荐系统<br/>
-  喜欢巨人 我们就是朋友😄<br/>
   欢迎与我进行交流<br/>
   <a href="mailto:linzhuochen@foxmail.com">
     <i class="fas fa-envelope"></i>
@@ -85,11 +84,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(/images/pic1.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(/images/pic1.jpg);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
@@ -155,18 +152,18 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               enable: true
               img: http://pic2.zhimg.com/v2-b02ba422b6a859adf0f22112e206de3c_xl.jpg # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fas fa-home fa-fw"></i> 首页'
+              - title: '<i class="fas fa-home fa-fw"></i> Home'
                 href: /
-              - title: '<i class="fas fa-comments fa-fw"></i> 留言'
+              - title: '<i class="fas fa-comments fa-fw"></i> Comments'
                 href: /comments/
-              - title: '<i class="fas fa-tags fa-fw"></i> 博客'
+              - title: '<i class="fas fa-tags fa-fw"></i> Blog'
                 href: /tags/
-              - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+              - title: '<i class="fas fa-archive fa-fw"></i> Archive'
                 href: /archive/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-                href: /merger/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 相册'
-                href: /photos/
+              # - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+              #   href: /merger/
+              # - title: '<i class="fas fa-coffee fa-fw"></i> 相册'
+              #   href: /photos/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
@@ -340,6 +337,121 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         page:
           masthead: # 显示顶栏
             enable: true
+          katex: # katex 数学公式插件
+            enable: true
+            append: | # 对KaTeX过长公式渲染超出页面的修正，感谢[@AmachiInori](https://github.com/wu-kan/wu-kan.github.io/issues/13)
+              <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+              />
+              <style>
+                .katex-display>.katex {
+                  white-space: normal;
+                }
+              </style>
+              <script
+                src="https://cdn.jsdelivr.net/combine/npm/katex@0.12.0/dist/katex.min.js,npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+                async="async"
+                onload='renderMathInElement(document.body, { delimiters: [{left: "$$", right: "$$", display: true}, { left: "$", right: "$", display: false }, {left: "\\(", right: "\\)", display: false}, {left: "\\[", right: "\\]", display: true}]})'
+              ></script>
+          mermaid: # mermaid图插件
+            enable: true
+            append: |
+              <style>
+                pre.language-mermaid,
+                code.language-mermaid {
+                  display: none;
+                }
+                .mermaid {
+                  overflow: auto auto;
+                  max-width: 100%;
+                  max-height: 66.6vh;
+                }
+              </style>
+              <script
+                src="https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js"
+                async="async"
+                onload='
+                  for(let x of document.getElementsByClassName("language-mermaid"))
+                    if(x.nodeName=="CODE")
+                    {
+                      let m = document.createElement("div");
+                      m.classList.add("mermaid");
+                      m.textContent = x.textContent;
+                      x.parentNode.insertAdjacentElement("beforebegin", m);
+                    }'
+              ></script>
+          prism: # 代码高亮插件
+            enable: true
+            append: |
+              <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/combine/npm/prismjs@1.21.0/plugins/line-numbers/prism-line-numbers.min.css,npm/prismjs@1.21.0/plugins/toolbar/prism-toolbar.min.css,npm/prismjs@1.21.0/plugins/match-braces/prism-match-braces.min.css,npm/prism-themes@1.4.0/themes/prism-nord.min.css"
+              />
+              <script
+                src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.21.0/components/prism-core.min.js,npm/prismjs@1.21.0/plugins/autoloader/prism-autoloader.min.js,npm/prismjs@1.21.0/plugins/line-numbers/prism-line-numbers.min.js,npm/prismjs@1.21.0/plugins/toolbar/prism-toolbar.min.js,npm/prismjs@1.21.0/plugins/match-braces/prism-match-braces.min.js"
+                async="async"
+                data-autoloader-path="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/components/"
+                onload='
+                  for(let x of document.getElementsByClassName("content"))
+                    x.classList.add("line-numbers","match-braces");
+                  Prism.plugins.toolbar.registerButton("select-code", function (env) {
+                    let button = document.createElement("button");
+                    button.textContent = "select this " + env.language;
+                    button.addEventListener("click", function () {
+                      if (document.body.createTextRange) {
+                        let range = document.body.createTextRange();
+                        range.moveToElementText(env.element);
+                        range.select();
+                      } else if (window.getSelection) {
+                        let selection = window.getSelection();
+                        let range = document.createRange();
+                        range.selectNodeContents(env.element);
+                        selection.removeAllRanges();
+                          selection.addRange(range);
+                      }
+                    });
+                    return button;
+                  })'
+              ></script>
+          prepend:
+            - | # 代码块过长自动折叠
+              <style>
+                pre {
+                  max-height: 66.6vh;
+                  overflow: auto;
+                }
+              </style>
+            - | # 增加宽屏下的显示内容
+              <style>
+                .container {
+                  min-width: 60.0%;
+                }
+              </style>
+            - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
+              <style>
+                .masthead,
+                .container.content {
+                  padding-top: 1rem;
+                  padding-bottom: 1rem;
+                  margin-bottom: 1.5rem;
+                  box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
+                  background-color: rgba(255,255,255,.5);
+                  animation-duration: 2s;
+                  animation-name: fadeIn;
+                }
+                @keyframes fadeIn {
+                  from {
+                    opacity: 0;
+                  }
+                  to {
+                    opacity: 1;
+                  }
+                }
+              </style>
+        project:
+          masthead: # 显示顶栏
+            enable: false
           katex: # katex 数学公式插件
             enable: true
             append: | # 对KaTeX过长公式渲染超出页面的修正，感谢[@AmachiInori](https://github.com/wu-kan/wu-kan.github.io/issues/13)
@@ -660,7 +772,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
   - jekyll-gallery-generator
 
-remote_theme: https://github.com/LinZhuoChen/jekyll-theme-WuK@4.0.1 #使用固定版本号以防止主题更新导致站点显示错乱
+remote_theme: https://github.com/LinZhuoChen/jekyll-theme-WuK #使用固定版本号以防止主题更新导致站点显示错乱
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
