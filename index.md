@@ -158,7 +158,7 @@ Feel free to contact me.
     <div id="publication">
         <div class="row work-block">
             <div class="project col-xs-3">
-                <img class="work-img" src="./images/s_conv1.png">
+                <img class="work-img" src="./images/s_conv2.png">
                 <!-- <img class="work-img" src="/images/s_conv2.png"> -->
             </div>
             <div class="col-xs-8">
