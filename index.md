@@ -213,7 +213,7 @@ Feel free to contact me.
             <div class="col-xs-8">
                 <strong>基于室内定位系统的四轴飞行器表演</strong>
                 <br>
-                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>] 
+                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>]
                 <br>
             </div>
         </div>
