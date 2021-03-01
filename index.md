@@ -232,3 +232,50 @@ Feel free to contact me.
         </div>
     </div>
 </head>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{transition:all 1s ease 0s;}
+
+    #showSlide{width:300px;height:200px;overflow:hidden;    border:20px solid #ccc;box-shadow:1px 1px 3px rgba(0,0,0,1);    }
+    #inner{}
+    .slide{width:300px;height:200px;display:inline-block;}
+    label{border-radius: 5px;display: inline-block;width: 10px;height: 10px;background: #ccc;cursor:pointer;}
+    input{display:none}
+    #slide1:hover ~ #showSlide #inner{margin-top:0;}
+    #slide2:hover ~ #showSlide #inner{margin-top:-200px;}
+    #slide3:hover ~ #showSlide #inner{margin-top:-400px;}
+    #slide4:hover ~ #showSlide #inner{margin-top:-600px;}
+    label:hover{background:#000;}
+
+</style>
+</head>
+<body>
+
+
+<div id="showSlide">
+    <div id="inner">
+    <artical>
+    <div class="slide"><img src="./images/s_conv1.png"></div>
+    </artical>
+    <artical>
+    <div  class="slide"><img src="./images/s_conv1.png"></div>
+    </artical>
+    <artical>
+    <div class="slide"><img src="./images/s_conv1.png"></div>
+    </artical>
+    <artical>
+    <div  class="slide"><img src="./images/s_conv1.png"></div>
+    </artical>
+    </div>
+</div>
+<div id="controller">
+    <label for="slide1"></label>
+    <label for="slide2"></label>
+    <label for="slide3"></label>
+    <label for="slide4"></label>
+</div>
+</body>
+</html>
