@@ -254,6 +254,11 @@ Feel free to contact me.
 </head>
 <body>
 
+    <input checked="checked" name="slider" id="slide1" type="radio">
+    <input name="slider" id="slide2" type="radio">
+    <input name="slider" id="slide3" type="radio">
+    <input name="slider" id="slide4" type="radio">
+    <input name="slider" id="slide5" type="radio">
 
 <div id="showSlide">
     <div id="inner">
