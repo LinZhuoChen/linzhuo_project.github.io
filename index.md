@@ -120,7 +120,7 @@ a:focus {
 
 </style>
 <!-- <div style="float:left;border:solid 1px 000;margin:2px;"><img src="./images/linzhuo.jpg"  width="250" height="240" ></div> -->
-# **关于我**
+## **关于我**
 Hi~ 😄我是陈林卓，目前南开大学计算机学院硕士在读，导师为[程明明](https://mmcheng.net/cmm/)教授。
 
 我的研究兴趣包括[计算机视觉](https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/2803351?fr=aladdin) <i class="fas fa-eye"></i>  和[推荐系统](https://baike.baidu.com/item/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/10267357?fr=aladdin) <i class="fas fa-brain"></i> ，可以查看我的[简历](https://linzhuo.xyz/file/main.pdf)和[博客](https://linzhuo.xyz/tags/) <i class="fas fa-book"></i> 。
@@ -134,7 +134,7 @@ My research interests are [Computer Vision](https://en.wikipedia.org/wiki/Comput
 
 
 ## **News**
-- I will join bytedance as a algorithm engineer.
+- I will join bytedance as an algorithm engineer.
 - I am invited as a reviewer for **IEEE TNNLS** and **IEEE ICCV**.
 - One paper is accpeted by **IEEE TIP**.
 - One paper is accpeted by **IEEE CVPR**.
