@@ -134,6 +134,7 @@ My research interests are [Computer Vision](https://en.wikipedia.org/wiki/Comput
 
 
 ## **News**
+- 微信公众号：“口袋AI算法”成立啦~欢迎关注。
 - I will join bytedance as an algorithm engineer.
 - I am invited as a reviewer for **IEEE TNNLS** and **IEEE ICCV**.
 - One paper is accpeted by **IEEE TIP**.
