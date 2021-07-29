@@ -37,7 +37,7 @@ $$
 接下来，我们将介绍在Graphormer中，用到的三种简单又高效的空间编码方式，具体如图1所示：
 
 
-![](https://files.mdnice.com/user/5787/c1416fea-c5f6-40fa-b4bf-e566d3126497.png)
+![](/images/graphormer.png)
 
 <center>图1 Graphormer中 centrality encoding， spatial encoding，edge encoding的介绍。</center>
 
