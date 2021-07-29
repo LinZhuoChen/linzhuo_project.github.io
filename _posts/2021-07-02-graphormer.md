@@ -1,5 +1,5 @@
 ---
-title: Graphormer详解！｜Transformer如何在图表示中大放异彩
+title: Graphormer详解
 categories: graph embedding
 tags:
 - 推荐系统
