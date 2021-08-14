@@ -87,6 +87,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
+                    background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
