@@ -15,7 +15,8 @@ img{text-align: center; margin: 0 auto;}
 
 <body>
     <p style="text-align:justify; text-justify:inter-ideograph">
-    今天是七夕，同时也是我们在一起四个月的纪念日呀。时间真的过的很快。
+    
+    今天是七夕，同时也是我们在一起四个月的纪念日呀。时间真的好快，回想起我们刚在一起一个月的时候，仿佛就像是在昨天。
 </p>
 </body>
 

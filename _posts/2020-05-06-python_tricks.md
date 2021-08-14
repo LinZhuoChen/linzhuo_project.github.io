@@ -5,11 +5,7 @@ tags:
 - 编程相关
 ---
 
-# 1. 使用Python3
-
-Python2 从 2020年1月1日起就不再被支持，所以本文档的技巧全部基于python3。
-
-# 2. 代码中检查Python的版本
+# 1. 代码中检查Python的版本
 
 我们可以使用以下代码来检查python版本，来编写各个版本兼容的代码：
 
@@ -22,7 +18,7 @@ elif not sys.version_info >= (3, 5):
   # because you're using 3.5 features
 ```
 
-# 3. 使用IPython
+# 2. 使用IPython
 
 IPython是一个增强后的shell，仅仅因为单独的补全功能就很香了。但是它还有更多的功能，我喜欢它更多是因为其内置的魔法命令，举几个例子：
 
@@ -46,7 +42,7 @@ IPython是一个增强后的shell，仅仅因为单独的补全功能就很香�
 pip3 install ipython
 ```
 
-# 4. 列表推导式
+# 3. 列表推导式
 
 列表推导式可以代替不简洁的for 循环，列表推导式的基本规则如下：
 
@@ -61,7 +57,7 @@ filtered = [i for i in range(20) if i % 2 == 0]
 print(filtered)
 ```
 
-# 5. 检查对象的内存占用
+# 4. 检查对象的内存占用
 
 ```python
 import sys
@@ -84,7 +80,7 @@ print(sys.getsizeof(myreallist))
 # 87632
 ```
 
-# 6. 返回多个值
+# 5. 返回多个值
 
 Python 的函数可以不通过list，dict，或者class来返回多个值，如下：
 
@@ -98,7 +94,7 @@ name, birthdate = get_user(4)
 
 对于返回的值，有限制数量是最好的，超过三个返回值应该被放在一个类中。
 
-# 7. 使用data class
+# 6. 使用data class
 
 从Python3.7 后，Python 支持data类，使用data class 有以下几个好处：
 
@@ -129,7 +125,7 @@ Card(rank = 'Q', suit="hearts")
 
 一个更深入的介绍可以在[这里](https://realpython.com/python-data-classes/)找到。
 
-# 8. Inplace 变量交换
+# 7. Inplace 变量交换
 
 ```python
 a = 1
@@ -141,7 +137,7 @@ print(b)
 # 1
 ```
 
-# 9. 合并字典(Python3.5+)
+# 8. 合并字典(Python3.5+)
 
 ```python
 dict1 = {'a':1, 'b':2}
@@ -153,7 +149,7 @@ print(merged)
 
 如果存在相同的key，来自第一个字典的key会被覆盖。
 
-# 10. String to title case
+# 9. String to title case
 
 ```python
 mystring = "10 awesome python tricks"
@@ -161,7 +157,7 @@ print(mystring.title())
 #'10 Awesome Python Tricks'
 ```
 
-# 11. 将字符串变成list
+# 10. 将字符串变成list
 
 ```python
 mystring = "The quick brown fox"
@@ -170,7 +166,7 @@ print(mylist)
 # ['The', 'quick', 'brown', 'fox']
 ```
 
-# 12. 将字符串列表合并成字符串
+# 11. 将字符串列表合并成字符串
 
 和上个trick相反，我们将列表里的字符串合并，并用空格来分离，代码如下：
 
@@ -185,7 +181,7 @@ print(mystring)
 
 是因为`String.join()`不仅仅可以作用在`list`上，还可以作用在任何可以迭代的变量上。这样写增加了程序的可扩展性。
 
-# 13. Emoji
+# 12. Emoji
 
 首先，我们需要安装`emoji` 库
 
@@ -206,7 +202,7 @@ result = emoji.demojize('python is : （表情）')
 
 访问[这里](https://pypi.org/project/emoji/) 获得更多例子和文档
 
-# 14. 将list 切片
+# 13. 将list 切片
 
 基本的list切片语法如下：
 
@@ -243,7 +239,7 @@ print(mystring)
 # 'aced it'
 ```
 
-# 15. 将字符串和list逆序
+# 14. 将字符串和list逆序
 
 你可以用slice 来对字符串或者list逆序，通过使用negative step `-1` 比如：
 
@@ -255,7 +251,7 @@ revarray = [1,2,3,4,5][::-1]
 print(revarray)
 ```
 
-# 16. 显示小猫咪
+# 15. 显示小猫咪
 
 首先我们需要安装 Python Image Library
 
@@ -276,7 +272,7 @@ print(im.format, im.size, im.mode)
 
 Pillow 不仅仅可以展示图片，它可以分析，重新设定大小，过滤，增强等等。
 
-# 17. 使用map()
+# 16. 使用map()
 
 Python 中的一个内置函数为`map()`，`map()`的语法如下：
 
@@ -300,7 +296,7 @@ print(list_of_ints)
 # [1, 2, 3, 4, 5, 6, 7]
 ```
 
-# 18. 从一个list 和字符串得到不重复元素
+# 17. 从一个list 和字符串得到不重复元素
 
 通过`set()` 函数，你可以从list 或者 list-like 对象得到不重复的元素，示例如下：
 
@@ -314,7 +310,7 @@ print (set("aaabbbcccdddeeefff"))
 # {'a', 'b', 'c', 'd', 'e', 'f'}
 ```
 
-# 19. 寻找最频繁出现的元素的次数
+# 18. 寻找最频繁出现的元素的次数
 
 为了寻找list或者string中出现最频繁的值(value), 我们可以编写代码如下：
 
@@ -329,7 +325,7 @@ print(max(set(test), key = test.count))
 
 - `set(test)` 从test中返回不重复的元素：`1,2,3,4`.
 
-# 20. 创建一个进度条
+# 19. 创建一个进度条
 
 我们可以使用`progress` package 来快速实现进度条：
 
@@ -349,7 +345,7 @@ for i in range(20):
 bar.finish()
 ```
 
-# 21.  在交互shell中使用_
+# 20.  在交互shell中使用_
 
 我们可以使用下划线得到上一个表达式的结果，在ipython中，如下：
 
@@ -363,13 +359,13 @@ Out[2]: 12
 
 这个在python shell中同样成立。同时我们也可以指定`out[n]`得到指定表达式的结果。
 
-# 22. 快速搭建一个网络服务器
+# 21. 快速搭建一个网络服务器
 你可以快速启动一个网络服务器，分享当前工作目录下的文件：
 ```bash
 python3 -m http.server
 ```
 
-# 23 条件三元运算符
+# 22. 条件三元运算符
 这里有另一种方法使得你的代码简介易读
 
 ```python
@@ -380,7 +376,7 @@ python3 -m http.server
 x = "Success!" if (y == 2) else "failed"
 ```
 
-# 24 计算list元素的频率
+# 23. 计算list元素的频率
 你可以使用`collections` 库里的`Counter` 来返回一个字典，包含每个唯一的元素出现的
 频次：
 ```python
@@ -396,7 +392,7 @@ print(Counter("aaaaabbbbbccccc"))
 # Counter({'a': 5, 'b': 5, 'c': 5})
 ```
 
-# 25 使用@property装饰器
+# 24. 使用@property装饰器
 我们可以使用@property装饰器，来限制类中元素值
 ```python
 class Student(object):
@@ -428,7 +424,7 @@ print(xiaoming.age)
 上面的`birth`是可读写属性，而`age`就是一个只读属性，`age`可以根据`birth`和当前时间计算出来。
 上述代码实现了：1）使用`@birth.setter`装饰器和`@property`来限制birth的值。2）使用`@property`来限制对age的写功能。
 
-# 26 使用namedtuple
+# 25. 使用namedtuple
 `namedtuple` 创造了一个类，并预先定义了元素，格式如下:
 ```python
 collections.namedtuple(typename, field_names, verbose=False, rename=False) 
@@ -443,28 +439,8 @@ user = User('tester', '22', '464643123')
 
 print(user)
 # User(name='tester', age='22', id='464643123')
-
-class SparseFeat(namedtuple('SparseFeat',
-                            ['name', 'vocabulary_size', 'embedding_dim', 'use_hash', 'dtype', 'embedding_name',
-                             'group_name'])):
-    __slots__ = ()
-
-    def __new__(cls, name, vocabulary_size, embedding_dim=4, use_hash=False, dtype="int32", embedding_name=None,
-                group_name=DEFAULT_GROUP_NAME):
-        if embedding_name is None:
-            embedding_name = name
-        if embedding_dim == "auto":
-            embedding_dim = 6 * int(pow(vocabulary_size, 0.25))
-        if use_hash:
-            print(
-                "Notice! Feature Hashing on the fly currently is not supported in torch version,you can use tensorflow version!")
-        return super(SparseFeat, cls).__new__(cls, name, vocabulary_size, embedding_dim, use_hash, dtype,
-                                              embedding_name, group_name)
-
-    def __hash__(self):
-        return self.name.__hash__()
 ```
-# 27. 串联比较运算符
+# 26. 串联比较运算符
 我们可以在python中串联比较运算符，使得整个程序简洁易懂：
 ```python
 x = 10
@@ -477,3 +453,39 @@ if 5 < x < 15:
  print("Yes")
 # Yes
 ```
+
+# 27. 使用joblib 库来实现程序并行
+
+使用之前可以在自己的环境里先安装好这个库：
+
+```bash
+pip install joblib
+```
+
+其中joblib中最常用的类和方法分别是Parallel和delayed。`Parallel`主要用于初始化并行计算的参数。`delayed`则主要用来指定需要被并行的参数。示例程序如下:
+
+```python
+from math import sqrt
+from joblib import Parallel, delayed
+Parallel(n_jobs=2)(delayed(sqrt)(i ** 2) for i in range(10))
+# [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]
+```
+
+其中`Parallel(n_jobs=2)`为指定两个cpu，`delayed(sqrt)`表示要并行的函数为`sqrt`。`(i ** 2) for i in range(10)`表示输入的参数为`i ** 2`，其中`i in range(10)`。
+
+# 28. 使用Filter 进行元素过滤
+
+我们可以使用`filter`函数过滤掉不符合我们定义条件的元素。其中第一个参数为function ，即我们自定义的判断函数。第二个参数为可迭代的对象。
+
+```python
+def is_odd(n):
+    return n % 2 == 1
+ 
+newlist = filter(is_odd, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print(newlist)
+# [1, 3, 5, 7, 9]
+```
+
+### 参考资料
+
+[1]. 30 Python Best Practices, Tips, And Tricks. Erik-Jan van Baaren
