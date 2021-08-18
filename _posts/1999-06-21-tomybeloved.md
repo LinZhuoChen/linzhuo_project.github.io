@@ -16,9 +16,11 @@ img{text-align: center; margin: 0 auto;}
 <body>
     <p style="text-align:justify; text-justify:inter-ideograph">
     
-    梦醒啦，生活还是要继续下去的～
-    我希望不论什么时候，你都不要后悔我们的相遇。
-    再见了。
+    梦醒啦，生活还是要继续下去的～ <br>
+
+    我希望不论什么时候，你都不要后悔我们的相遇。<br>
+
+    再见了，小熊。
 
 
 </p>
