@@ -120,13 +120,14 @@ a:focus {
 
 </style>
 <!-- <div style="float:left;border:solid 1px 000;margin:2px;"><img src="./images/linzhuo.jpg"  width="250" height="240" ></div> -->
-## **关于我**
-Hi~ 😄我是陈林卓，是字节跳动的算法工程师。
+## **About Me**
+<!-- Hi~ 😄我是陈林卓，是字节跳动的算法工程师。
 硕士就读于南开大学计算机学院，导师为[程明明](https://mmcheng.net/cmm/)教授。
 
-我的研究兴趣为[计算机视觉](https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/2803351?fr=aladdin) <i class="fas fa-eye"></i>，可以查看我的[简历](https://linzhuo.xyz/file/main.pdf)和[博客](https://linzhuo.xyz/tags/) <i class="fas fa-book"></i> 。
+我的研究兴趣为[计算机视觉](https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/2803351?fr=aladdin) <i class="fas fa-eye"></i>，可以查看我的[简历](https://linzhuo.xyz/file/main.pdf)和[博客](https://linzhuo.xyz/tags/) <i class="fas fa-book"></i> 。 -->
 
-<!-- 欢迎给我[留言](https://linzhuo.xyz/comments/) <i class="far fa-comments"></i>  和 [打赏 ](https://linzhuo.xyz/merger/) <i class="far fa-grimace"></i> 。 -->
+Lin-Zhuo Chen(陈林卓) is an algorithm engineer in bytedance. Previously, he worked with Prof. [Ming-Ming Cheng](http://mmcheng.net/cmm/) at Nankai University and got master degree. His research interests include 3D Computer Vision and Robotics.
+
 
 
 ## **News**
@@ -150,14 +151,14 @@ Feel free to contact me.
 
 **Xidian University** Sept. 2014 - Jul. 2018 
 
-**Nankai University** Sept. 2018 - Jul. 2021(expected) 
+**Nankai University** Sept. 2018 - Jul. 2021
 
 <!-- # **Update**
 * 2020-12-20: One paper on spatial information guided convolution for RGBD semantic segmentation is accpeted by IEEE TIP.
 * 2020-12-09: 更新博文：[policy gradient](https://linzhuo.xyz/_posts/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/2020-12-04-policy_gradient/)。
 * 2020-12-05: 主页重构，修改了project页面，修改背景，留言和打赏页。 -->
 
-## **Project**
+## **Publication List**
 <head>
     <div id="publication">
         <div class="row work-block">
@@ -186,7 +187,7 @@ Feel free to contact me.
                 <br>
                 <strong>Interactive Image Segmentation with First Click Attention</strong>
                 <br>
-                <strong>IEEE CVPR, 2020</strong>
+                <strong>IEEE CVPR, 2020. (CCF-A)</strong>
                 <br>
                 [<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Interactive_Image_Segmentation_With_First_Click_Attention_CVPR_2020_paper.pdf" target="_blank">Paper</a>][<a href="https://www.lin-zheng.com/fclick/" target="_blank">Project</a>] [<a href="https://github.com/frazerlin/fcanet" target="_blank">Code</a>]   
                 <br>
@@ -208,12 +209,15 @@ Feel free to contact me.
                 <br>
             </div>
         </div>
+</head>
+
+## **Project**
+<head>
         <div class="row work-block">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/system.png">
                 <!-- <img class="work-img" src="/images/system.png"> -->
             </div>
-            Jin-Yao Zhu, Lin-Zhuo Chen 
             <div class="col-xs-8">
                 <strong>基于室内定位系统的四轴飞行器表演</strong>
                 <br>
@@ -226,7 +230,6 @@ Feel free to contact me.
                 <img class="work-img" src="./images/hardware2.jpg">
                 <!-- <img class="work-img" src="/images/fangdaqi.jpg"> -->
             </div>
-            杨猛，陈林卓，曾羡霖 
             <div class="col-xs-8">
                 <strong>自动增益控制宽带放大器</strong>
                 <br>
