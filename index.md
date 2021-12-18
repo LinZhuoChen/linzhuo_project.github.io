@@ -126,7 +126,7 @@ a:focus {
 
 我的研究兴趣为[计算机视觉](https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/2803351?fr=aladdin) <i class="fas fa-eye"></i>，可以查看我的[简历](https://linzhuo.xyz/file/main.pdf)和[博客](https://linzhuo.xyz/tags/) <i class="fas fa-book"></i> 。 -->
 
-Lin-Zhuo Chen(陈林卓) is an algorithm engineer in bytedance. Previously, he worked with Prof. [Ming-Ming Cheng](http://mmcheng.net/cmm/) at Nankai University and got master degree. His research interests include 3D Computer Vision and Robotics.
+Lin-Zhuo Chen (陈林卓) is an algorithm engineer in bytedance. Previously, he was a master student at Nankai University, supervised by Prof. [Ming-Ming Cheng](http://mmcheng.net/cmm/). His research interests include Computer Vision and Robotics.
 
 
 
@@ -173,7 +173,7 @@ Feel free to contact me.
                 <br>
                 <strong> IEEE TIP, 2021. (SCI-1, CCF-A)</strong>
                 <br>
-                [<a href="https://arxiv.org/abs/2004.04534" target="_blank">Paper</a>] [<a href="https://github.com/LinZhuoChen/SGNet" target="_blank">Code</a>][<a href="https://linzhuo.xyz/sgnet" target="_blank">Project</a>] 
+                [<a href="https://arxiv.org/abs/2004.04534" target="_blank">Paper</a>][<a href="https://github.com/LinZhuoChen/SGNet" target="_blank">Code</a>][<a href="https://linzhuo.xyz/sgnet" target="_blank">Project</a>] 
                 <br>
             </div>
         </div>
@@ -205,13 +205,10 @@ Feel free to contact me.
                 <br>
                 <strong>preprint</strong>
                 <br>
-                [<a href="https://arxiv.org/pdf/1905.05442.pdf" target="_blank">Paper</a>] [<a href="https://github.com/LinZhuoChen/LSANet" target="_blank">Code</a>] 
+                [<a href="https://arxiv.org/pdf/1905.05442.pdf" target="_blank">Paper</a>][<a href="https://github.com/LinZhuoChen/LSANet" target="_blank">Code</a>] 
                 <br>
             </div>
         </div>
-</head>
-
-<head>
         <div class="row work-block">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/system.png">
@@ -220,7 +217,7 @@ Feel free to contact me.
             <div class="col-xs-8">
                 <strong>基于室内定位系统的四轴飞行器表演</strong>
                 <br>
-                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>]
+                [<a href="https://linzhuo.xyz/quadrotor" target="_blank">Project</a>][<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>][<a href="https://www.youtube.com/watch?v=XSEBEPnCcRU">Video (Youtube)</a>]
                 <br>
             </div>
         </div>
@@ -232,7 +229,7 @@ Feel free to contact me.
             <div class="col-xs-8">
                 <strong>自动增益控制宽带放大器</strong>
                 <br>
-                [<a href="https://linzhuo.xyz/_posts/project/2019-11-29-quadrotor/" target="_blank">Project</a>] [<a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_blank">Code</a>] 
+                [Project] [Code] 
                 <br>
             </div>
         </div>
