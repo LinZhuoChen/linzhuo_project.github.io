@@ -229,7 +229,7 @@ Feel free to contact me.
             <div class="col-xs-8">
                 <strong>自动增益控制宽带放大器</strong>
                 <br>
-                [Project] [Code] 
+                [Project][Code] 
                 <br>
             </div>
         </div>
