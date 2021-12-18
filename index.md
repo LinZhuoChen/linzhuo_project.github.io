@@ -158,7 +158,7 @@ Feel free to contact me.
 * 2020-12-09: 更新博文：[policy gradient](https://linzhuo.xyz/_posts/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/2020-12-04-policy_gradient/)。
 * 2020-12-05: 主页重构，修改了project页面，修改背景，留言和打赏页。 -->
 
-## **Publication List**
+## **Publication List/Project**
 <head>
     <div id="publication">
         <div class="row work-block">
@@ -211,7 +211,6 @@ Feel free to contact me.
         </div>
 </head>
 
-## **Project**
 <head>
         <div class="row work-block">
             <div class="project col-xs-3">
