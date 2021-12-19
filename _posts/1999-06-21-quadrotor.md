@@ -9,7 +9,7 @@ permalink: /quadrotor/
   <p align="center">
     Jinyao Zhu* and Lin-Zhuo Chen*
     <br />
-    <a href="https://arxiv.org/pdf/2004.04534.pdf" target="_black">[Code_1]</a>
+    <a href="https://github.com/JinyaoZhu/STM32F4-Quad" target="_black">[Code_1]</a>
     <a href="https://github.com/LinZhuoChen/Quadrotor" target="_black">[Code_2(no os) <i class="fab fa-github"></i>]</a>
     <br /> 
   </p>

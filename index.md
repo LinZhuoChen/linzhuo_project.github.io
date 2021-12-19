@@ -128,7 +128,7 @@ a:focus {
 
 Lin-Zhuo Chen (陈林卓) is an algorithm engineer in bytedance. Previously, he was a master student at Nankai University, supervised by Prof. [Ming-Ming Cheng](http://mmcheng.net/cmm/). His research interests include Computer Vision and Robotics.
 
-
+The [CV](https://linzhuo.xyz/files/cv.pdf) is avaliable.
 
 ## **News**
 - I join bytedance as an algorithm engineer.
@@ -161,7 +161,7 @@ Feel free to contact me.
 ## **Publication List/Project**
 <head>
     <div id="publication">
-        <div class="row work-block">
+        <div class="row vspace-top-lite">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/s_conv1.png">
                 <!-- <img class="work-img" src="/images/s_conv2.png"> -->
@@ -177,6 +177,7 @@ Feel free to contact me.
                 <br>
             </div>
         </div>
+        <HR>
                 <div class="row work-block">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/fclick.jpg">
@@ -193,6 +194,7 @@ Feel free to contact me.
                 <br>
             </div>
         </div>
+        <HR>
         <div class="row work-block">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/LSA_module.png">
@@ -209,6 +211,7 @@ Feel free to contact me.
                 <br>
             </div>
         </div>
+        <HR>
         <div class="row work-block">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/system.png">
@@ -221,6 +224,7 @@ Feel free to contact me.
                 <br>
             </div>
         </div>
+        <HR>
         <div class="row work-block">
             <div class="project col-xs-3">
                 <img class="work-img" src="./images/hardware2.jpg">
